@@ -162,8 +162,8 @@ contract Eternal {
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=eternalnetwork&hide_border=true&bg_color=0A0C10&color=C4C9D2&line=F5B841&point=4FD1B5&area=true&area_color=F5B841" alt="Contribution graph" width="100%" />
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/eternalnetwork/immortal/output/snake-dark.svg" />
-  <img alt="Contribution snake" src="https://raw.githubusercontent.com/eternalnetwork/immortal/output/snake.svg" width="100%" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/eternalnetwork/eternalnetwork/output/snake-dark.svg" />
+  <img alt="Contribution snake" src="https://raw.githubusercontent.com/eternalnetwork/eternalnetwork/output/snake.svg" width="100%" />
 </picture>
 
 </div>
