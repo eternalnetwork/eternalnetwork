@@ -4,7 +4,7 @@
 
 <br/>
 
-<a href="https://github.com/Patterndrive-dev">
+<a href="https://github.com/eternalnetwork">
   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=20&pause=1200&color=F5B841&center=true&vCenter=true&width=640&lines=gm+%E2%80%94+building+the+decentralized+web;Smart+contracts+%C2%B7+DeFi+%C2%B7+Zero-knowledge;Non-custodial+by+default.;Code+is+law.+History+is+eternal." alt="Typing intro" />
 </a>
 
@@ -13,7 +13,7 @@
 <img src="https://img.shields.io/badge/status-onchain-4FD1B5?style=flat-square&labelColor=0A0C10" />
 <img src="https://img.shields.io/badge/mode-trustless-F5B841?style=flat-square&labelColor=0A0C10" />
 <img src="https://img.shields.io/badge/keys-self--custody-ECE8DF?style=flat-square&labelColor=0A0C10" />
-<img src="https://komarev.com/ghpvc/?username=Patterndrive-dev&style=flat-square&color=2A303B&label=views" />
+<img src="https://komarev.com/ghpvc/?username=eternalnetwork&style=flat-square&color=2A303B&label=views" />
 
 </div>
 
@@ -154,16 +154,16 @@ contract Eternal {
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=Patterndrive-dev&show_icons=true&hide_border=true&bg_color=0A0C10&title_color=F5B841&icon_color=4FD1B5&text_color=C4C9D2&ring_color=F5B841&include_all_commits=true&count_private=true" alt="GitHub stats" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Patterndrive-dev&layout=compact&hide_border=true&bg_color=0A0C10&title_color=F5B841&text_color=C4C9D2&langs_count=6" alt="Top languages" />
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=eternalnetwork&show_icons=true&hide_border=true&bg_color=0A0C10&title_color=F5B841&icon_color=4FD1B5&text_color=C4C9D2&ring_color=F5B841&include_all_commits=true&count_private=true" alt="GitHub stats" />
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=eternalnetwork&layout=compact&hide_border=true&bg_color=0A0C10&title_color=F5B841&text_color=C4C9D2&langs_count=6" alt="Top languages" />
 
-<img src="https://streak-stats.demolab.com?user=Patterndrive-dev&hide_border=true&background=0A0C10&ring=F5B841&fire=4FD1B5&currStreakLabel=F5B841&sideLabels=C4C9D2&currStreakNum=ECE8DF&sideNums=ECE8DF&dates=6B7383&stroke=2A303B" alt="Contribution streak" width="80%" />
+<img src="https://streak-stats.demolab.com?user=eternalnetwork&hide_border=true&background=0A0C10&ring=F5B841&fire=4FD1B5&currStreakLabel=F5B841&sideLabels=C4C9D2&currStreakNum=ECE8DF&sideNums=ECE8DF&dates=6B7383&stroke=2A303B" alt="Contribution streak" width="80%" />
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Patterndrive-dev&hide_border=true&bg_color=0A0C10&color=C4C9D2&line=F5B841&point=4FD1B5&area=true&area_color=F5B841" alt="Contribution graph" width="100%" />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=eternalnetwork&hide_border=true&bg_color=0A0C10&color=C4C9D2&line=F5B841&point=4FD1B5&area=true&area_color=F5B841" alt="Contribution graph" width="100%" />
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Patterndrive-dev/Patterndrive-dev/output/snake-dark.svg" />
-  <img alt="Contribution snake" src="https://raw.githubusercontent.com/Patterndrive-dev/Patterndrive-dev/output/snake.svg" width="100%" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/eternalnetwork/immortal/output/snake-dark.svg" />
+  <img alt="Contribution snake" src="https://raw.githubusercontent.com/eternalnetwork/immortal/output/snake.svg" width="100%" />
 </picture>
 
 </div>
