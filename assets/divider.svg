@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 24" width="1280" height="24" aria-hidden="true">
+  <style>
+    .d { stroke-dasharray: 6 10; animation: m 2s linear infinite; }
+    @keyframes m { to { stroke-dashoffset: -32; } }
+  </style>
+  <line class="d" x1="0" y1="12" x2="600" y2="12" stroke="#2A303B" stroke-width="2"/>
+  <line class="d" x1="680" y1="12" x2="1280" y2="12" stroke="#2A303B" stroke-width="2"/>
+  <circle cx="620" cy="12" r="6" fill="none" stroke="#F5B841" stroke-width="3"/>
+  <circle cx="660" cy="12" r="6" fill="none" stroke="#4FD1B5" stroke-width="3"/>
+  <circle cx="640" cy="12" r="4" fill="#ECE8DF"/>
+</svg>
