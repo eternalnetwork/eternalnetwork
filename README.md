@@ -150,23 +150,86 @@ contract Eternal {
 
 <img src="./assets/divider.svg" width="100%" />
 
-### `▤ on-chain activity (git edition)`
+### `⛏ latest blocks`
 
-<div align="center">
+<img src="./assets/blocks.svg" alt="Animated block explorer: blocks being built, linked and finalized on-chain" width="100%" />
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=eternalnetwork&show_icons=true&hide_border=true&bg_color=0A0C10&title_color=F5B841&icon_color=4FD1B5&text_color=C4C9D2&ring_color=F5B841&include_all_commits=true&count_private=true" alt="GitHub stats" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=eternalnetwork&layout=compact&hide_border=true&bg_color=0A0C10&title_color=F5B841&text_color=C4C9D2&langs_count=6" alt="Top languages" />
+<img src="./assets/divider.svg" width="100%" />
 
-<img src="https://streak-stats.demolab.com?user=eternalnetwork&hide_border=true&background=0A0C10&ring=F5B841&fire=4FD1B5&currStreakLabel=F5B841&sideLabels=C4C9D2&currStreakNum=ECE8DF&sideNums=ECE8DF&dates=6B7383&stroke=2A303B" alt="Contribution streak" width="80%" />
+### `◇ currently researching`
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=eternalnetwork&hide_border=true&bg_color=0A0C10&color=C4C9D2&line=F5B841&point=4FD1B5&area=true&area_color=F5B841" alt="Contribution graph" width="100%" />
+<table>
+<tr>
+<td width="50%" valign="top">
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/eternalnetwork/eternalnetwork/output/snake-dark.svg" />
-  <img alt="Contribution snake" src="https://raw.githubusercontent.com/eternalnetwork/eternalnetwork/output/snake.svg" width="100%" />
-</picture>
+**Execution & UX**
+- EIP-7702: smart accounts for every EOA
+- Intents, solvers & order-flow auctions
+- Chain abstraction: one balance, any chain
+- Passkeys & session keys instead of seed phrases
 
-</div>
+</td>
+<td width="50%" valign="top">
+
+**Scaling & trust**
+- Based & native rollups
+- ZK coprocessors & proof aggregation
+- Restaking & shared security
+- FHE & MPC for private on-chain state
+
+</td>
+</tr>
+</table>
+
+<img src="./assets/divider.svg" width="100%" />
+
+### `⧗ the eternal ledger`
+
+```text
+#0          2009-01-03   Bitcoin genesis block. Peer-to-peer cash begins.
+#1          2010-05-22   10,000 BTC for two pizzas. Price discovery begins.
+#2          2015-07-30   Ethereum mainnet. Money becomes programmable.
+#3          2020-06      DeFi summer. Lending, AMMs and yield go permissionless.
+#4          2022-09-15   The Merge. Proof-of-stake, ~99.95% less energy.
+#5          2024-03-13   Dencun. EIP-4844 blobs make L2s cheap.
+#6          2025-05-07   Pectra. EIP-7702 brings smart accounts to every wallet.
+#∞          next         Whatever we build on top. Commit → branch → merge → repeat.
+```
+
+<img src="./assets/divider.svg" width="100%" />
+
+### `$ tx receipt`
+
+```json
+{
+  "status": "0x1",
+  "from": "eternal",
+  "to": "the decentralized web",
+  "value": "∞",
+  "gasUsed": "every opcode, accounted for",
+  "logs": ["Built()", "Audited()", "Shipped()", "Repeat()"],
+  "confirmations": "forever"
+}
+```
+
+<details>
+<summary><b>📖 gm glossary</b> (for the frens just arriving)</summary>
+
+<br/>
+
+| term | meaning |
+|---|---|
+| **gm** | Good morning. Said at any hour, on any chain. |
+| **wagmi / ngmi** | We're all gonna make it / not gonna make it. |
+| **ser** | Respectful address. "Wen mainnet, ser?" |
+| **fren** | A friend who also reads whitepapers. |
+| **hodl** | Hold through the volatility. Born from a typo in 2013. |
+| **rekt** | What happens when you skip the audit. |
+| **degen** | Apes in first, reads the contract later. |
+| **NFA / DYOR** | Not financial advice. Do your own research. |
+| **few understand** | The idea is early and you're on time. |
+
+</details>
 
 <img src="./assets/divider.svg" width="100%" />
 
