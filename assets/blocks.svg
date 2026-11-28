@@ -1,0 +1,124 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 250" width="1280" height="250" role="img" aria-label="eternal block explorer: blocks being produced and finalized on-chain">
+  <defs>
+    <pattern id="g" width="32" height="32" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="1" fill="#1E242E"/>
+    </pattern>
+    <clipPath id="lane"><rect x="32" y="64" width="930" height="160"/></clipPath>
+    <linearGradient id="fadeL" x1="0" x2="1">
+      <stop offset="0" stop-color="#0A0C10"/><stop offset="1" stop-color="#0A0C10" stop-opacity="0"/>
+    </linearGradient>
+    <g id="blk">
+      <rect width="200" height="128" rx="12" fill="#10141B" stroke="#2A303B" stroke-width="2"/>
+      <rect x="16" y="98" width="168" height="8" rx="4" fill="#1E242E"/>
+    </g>
+    <style>
+      .m { font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace; }
+      .strip { animation: slide 19.2s linear infinite; }
+      @keyframes slide { from { transform: translateX(0); } to { transform: translateX(-960px); } }
+      .pend { stroke-dasharray: 10 8; animation: march 1.2s linear infinite; }
+      @keyframes march { to { stroke-dashoffset: -36; } }
+      .blink { animation: blink 1s steps(1) infinite; }
+      @keyframes blink { 50% { opacity: 0; } }
+      .n1 { animation: nonce 1.2s steps(1) infinite; }
+      .n2 { animation: nonce 1.2s steps(1) infinite .4s; opacity: 0; }
+      .n3 { animation: nonce 1.2s steps(1) infinite .8s; opacity: 0; }
+      @keyframes nonce { 0% { opacity: 1; } 33.3% { opacity: 0; } }
+      .tx { animation: tx 2.4s ease-in infinite; opacity: 0; }
+      .tx.b { animation-delay: .8s; } .tx.c { animation-delay: 1.6s; }
+      @keyframes tx { 0% { transform: translateX(0); opacity: 0; } 15% { opacity: 1; } 100% { transform: translateX(-150px); opacity: 0; } }
+      .gas { animation: gas 4.8s ease-in-out infinite; transform-box: fill-box; transform-origin: left; }
+      @keyframes gas { 0% { transform: scaleX(.15); } 85%,100% { transform: scaleX(1); } }
+    </style>
+  </defs>
+
+  <rect width="1280" height="250" rx="18" fill="#0A0C10"/>
+  <rect width="1280" height="250" rx="18" fill="url(#g)"/>
+
+  <!-- header -->
+  <text x="32" y="40" class="m" font-size="16" fill="#6B7383">eternal://explorer</text>
+  <text x="180" y="40" class="m" font-size="16" fill="#2A303B">/</text>
+  <text x="198" y="40" class="m" font-size="16" fill="#C4C9D2">latest blocks</text>
+  <circle cx="1100" cy="35" r="5" fill="#4FD1B5" class="blink"/>
+  <text x="1114" y="40" class="m" font-size="14" fill="#4FD1B5">LIVE</text>
+  <text x="1164" y="40" class="m" font-size="14" fill="#6B7383">12s/blk</text>
+
+  <!-- moving chain of finalized blocks -->
+  <g clip-path="url(#lane)">
+    <g class="strip">
+      <line x1="40" y1="144" x2="2000" y2="144" stroke="#2A303B" stroke-width="2" stroke-dasharray="4 6"/>
+      <g transform="translate(40,80)"><use href="#blk"/>
+        <text x="16" y="30" class="m" font-size="13" fill="#6B7383">hash</text>
+        <text x="16" y="50" class="m" font-size="15" fill="#ECE8DF">0x9f2c…e41a</text>
+        <text x="16" y="80" class="m" font-size="13" fill="#C4C9D2">214 txs</text>
+        <text x="184" y="80" class="m" font-size="13" fill="#4FD1B5" text-anchor="end">✓ final</text>
+        <rect x="16" y="98" width="128" height="8" rx="4" fill="#F5B841" opacity=".85"/></g>
+      <g transform="translate(280,80)"><use href="#blk"/>
+        <text x="16" y="30" class="m" font-size="13" fill="#6B7383">hash</text>
+        <text x="16" y="50" class="m" font-size="15" fill="#ECE8DF">0x03ab…77c9</text>
+        <text x="16" y="80" class="m" font-size="13" fill="#C4C9D2">187 txs</text>
+        <text x="184" y="80" class="m" font-size="13" fill="#4FD1B5" text-anchor="end">✓ final</text>
+        <rect x="16" y="98" width="104" height="8" rx="4" fill="#F5B841" opacity=".85"/></g>
+      <g transform="translate(520,80)"><use href="#blk"/>
+        <text x="16" y="30" class="m" font-size="13" fill="#6B7383">hash</text>
+        <text x="16" y="50" class="m" font-size="15" fill="#ECE8DF">0xe7d0…1b38</text>
+        <text x="16" y="80" class="m" font-size="13" fill="#C4C9D2">251 txs</text>
+        <text x="184" y="80" class="m" font-size="13" fill="#4FD1B5" text-anchor="end">✓ final</text>
+        <rect x="16" y="98" width="152" height="8" rx="4" fill="#F5B841" opacity=".85"/></g>
+      <g transform="translate(760,80)"><use href="#blk"/>
+        <text x="16" y="30" class="m" font-size="13" fill="#6B7383">hash</text>
+        <text x="16" y="50" class="m" font-size="15" fill="#ECE8DF">0x5a61…c0de</text>
+        <text x="16" y="80" class="m" font-size="13" fill="#C4C9D2">162 txs</text>
+        <text x="184" y="80" class="m" font-size="13" fill="#4FD1B5" text-anchor="end">✓ final</text>
+        <rect x="16" y="98" width="92" height="8" rx="4" fill="#F5B841" opacity=".85"/></g>
+      <g transform="translate(1000,80)"><use href="#blk"/>
+        <text x="16" y="30" class="m" font-size="13" fill="#6B7383">hash</text>
+        <text x="16" y="50" class="m" font-size="15" fill="#ECE8DF">0x9f2c…e41a</text>
+        <text x="16" y="80" class="m" font-size="13" fill="#C4C9D2">214 txs</text>
+        <text x="184" y="80" class="m" font-size="13" fill="#4FD1B5" text-anchor="end">✓ final</text>
+        <rect x="16" y="98" width="128" height="8" rx="4" fill="#F5B841" opacity=".85"/></g>
+      <g transform="translate(1240,80)"><use href="#blk"/>
+        <text x="16" y="30" class="m" font-size="13" fill="#6B7383">hash</text>
+        <text x="16" y="50" class="m" font-size="15" fill="#ECE8DF">0x03ab…77c9</text>
+        <text x="16" y="80" class="m" font-size="13" fill="#C4C9D2">187 txs</text>
+        <text x="184" y="80" class="m" font-size="13" fill="#4FD1B5" text-anchor="end">✓ final</text>
+        <rect x="16" y="98" width="104" height="8" rx="4" fill="#F5B841" opacity=".85"/></g>
+      <g transform="translate(1480,80)"><use href="#blk"/>
+        <text x="16" y="30" class="m" font-size="13" fill="#6B7383">hash</text>
+        <text x="16" y="50" class="m" font-size="15" fill="#ECE8DF">0xe7d0…1b38</text>
+        <text x="16" y="80" class="m" font-size="13" fill="#C4C9D2">251 txs</text>
+        <text x="184" y="80" class="m" font-size="13" fill="#4FD1B5" text-anchor="end">✓ final</text>
+        <rect x="16" y="98" width="152" height="8" rx="4" fill="#F5B841" opacity=".85"/></g>
+      <g transform="translate(1720,80)"><use href="#blk"/>
+        <text x="16" y="30" class="m" font-size="13" fill="#6B7383">hash</text>
+        <text x="16" y="50" class="m" font-size="15" fill="#ECE8DF">0x5a61…c0de</text>
+        <text x="16" y="80" class="m" font-size="13" fill="#C4C9D2">162 txs</text>
+        <text x="184" y="80" class="m" font-size="13" fill="#4FD1B5" text-anchor="end">✓ final</text>
+        <rect x="16" y="98" width="92" height="8" rx="4" fill="#F5B841" opacity=".85"/></g>
+    </g>
+    <rect x="32" y="64" width="80" height="160" fill="url(#fadeL)"/>
+  </g>
+
+  <!-- link to pending block -->
+  <line x1="962" y1="144" x2="1012" y2="144" stroke="#F5B841" stroke-width="2" class="pend"/>
+
+  <!-- pending block being built -->
+  <g transform="translate(1016,80)">
+    <rect width="224" height="128" rx="12" fill="#10141B" stroke="#F5B841" stroke-width="2" class="pend"/>
+    <text x="16" y="30" class="m" font-size="13" fill="#F5B841">building…</text>
+    <text x="16" y="52" class="m" font-size="14" fill="#6B7383">nonce</text>
+    <text x="72" y="52" class="m n1" font-size="14" fill="#ECE8DF">0x7e3f</text>
+    <text x="72" y="52" class="m n2" font-size="14" fill="#ECE8DF">0xa90c</text>
+    <text x="72" y="52" class="m n3" font-size="14" fill="#ECE8DF">0x14d2</text>
+    <text x="16" y="80" class="m" font-size="13" fill="#C4C9D2">mempool → block</text>
+    <rect x="16" y="98" width="192" height="8" rx="4" fill="#1E242E"/>
+    <rect x="16" y="98" width="192" height="8" rx="4" fill="#4FD1B5" class="gas"/>
+  </g>
+
+  <!-- incoming transactions -->
+  <g>
+    <circle cx="1250" cy="228" r="4" fill="#4FD1B5" class="tx"/>
+    <circle cx="1250" cy="228" r="4" fill="#F5B841" class="tx b"/>
+    <circle cx="1250" cy="228" r="4" fill="#ECE8DF" class="tx c"/>
+  </g>
+  <text x="32" y="234" class="m" font-size="12" fill="#6B7383">every block references the one before it. history can't be rewritten — only extended.</text>
+</svg>
